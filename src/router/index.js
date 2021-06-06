@@ -10,7 +10,7 @@ const routes = [
     component: PhoneRouter
   },
   {
-    path: '/detail/:movieId',
+    path: '/detail/:id',
     name: 'detail',
     component: DetailRouter
   },

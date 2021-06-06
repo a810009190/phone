@@ -2,11 +2,15 @@
     <div>
         hello detail
     </div>
+    
 </template>
 
 <script>
 export default {
-    name: 'detail'
+    name: 'detail',
+    mounted(){
+        console.log(this.$route.params.id)
+    }
 }
 </script>
 

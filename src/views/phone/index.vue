@@ -373,7 +373,7 @@ export default {
                 this.currentList = this[ln]
             },
             handleToDetail(id){
-                this.$router.push('/movie/detail/'+id)
+                this.$router.push('/detail/'+id)
             }
         }
     
